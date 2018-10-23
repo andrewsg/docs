@@ -22,7 +22,7 @@ The source files in this folder were created by the following steps:
     mkdir app
     cd app
     ````
-1. Create a file named `app.py` and copy the code block below into it:
+1. Create a file named `main.py` and copy the code block below into it:
 
     ```python
     import os
@@ -53,7 +53,7 @@ The source files in this folder were created by the following steps:
     RUN pip install Flask
 
     ENTRYPOINT ["python"]
-    CMD ["app.py"]
+    CMD ["main.py"]
     ```
 
 1. Create a new file, `service.yaml` and copy the following service definition
