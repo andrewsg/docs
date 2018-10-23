@@ -14,9 +14,7 @@ TARGET is not specified, it will use "World" as the TARGET.
 
 ## Steps to recreate the sample code
 
-While you can clone all of the code from this directory, hello world apps are
-generally more useful if you build them step-by-step.
-The following instructions recreate the source files from this folder.
+The source files in this folder were created by the following steps:
 
 1. Create a new directory and cd into it:
 
@@ -39,7 +37,7 @@ The following instructions recreate the source files from this folder.
         return 'Hello {}!\n'.format(target)
 
     if __name__ == "__main__":
-        app.run(debug=True,host='0.0.0.0',port=int(os.environ.get('PORT', 8080)))
+        app.run(debug=True, host='0.0.0.0', port=int(os.environ.get('PORT', 8080)))
     ```
 
 1. Create a file named `Dockerfile` and copy the code block below into it.
